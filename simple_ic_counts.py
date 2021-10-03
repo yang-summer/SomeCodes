@@ -42,4 +42,3 @@ for n in range(len(car_numbers)):
     writer.sheets[car_numbers[n]].column_dimensions['A'].width = 30
 
 writer.save()
-writer.close()
